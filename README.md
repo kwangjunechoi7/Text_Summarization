@@ -1,5 +1,5 @@
 # Korean Documents Text Summarization
-This repository contains Summarization of Korean documents. AI Hub Documents Summary data was used for fine tuning, and a KoBART pretraining model was used.
+This repository contains simple abstractive summarization of Korean documents. AI Hub Documents Summary data was used for fine tuning, and a KoBART pretraining model was used.
 
 
 ## Train summary
