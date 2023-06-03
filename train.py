@@ -1,10 +1,6 @@
 import os
 import random
 import numpy as np
-
-from konlpy.tag import Mecab
-mecab = Mecab()
-
 import wandb
 import torch
 from dotenv import load_dotenv
