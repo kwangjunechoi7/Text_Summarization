@@ -1,27 +1,14 @@
-import re
-import six
-import numpy as np
-from tqdm import tqdm
-from konlpy.tag import Mecab
-mecab = Mecab()
-
-from rouge_score import scoring
-import pandas as pd
-import datasets
-from datasets import Dataset, DatasetDict
-import os, sys
-
-import wandb
-
 import os
 import random
 import numpy as np
 
-import torch
+from konlpy.tag import Mecab
+mecab = Mecab()
 
+import wandb
+import torch
 from dotenv import load_dotenv
 
-import argparse
 from functools import partial
 from datasets import load_dataset
 from transformers.data.data_collator import DataCollatorForSeq2Seq
@@ -31,12 +18,6 @@ from transformers import (
     AutoModelForSeq2SeqLM,
     Seq2SeqTrainingArguments,
     Seq2SeqTrainer
-)
-
-from rouge_utils import (
-    create_ngrams,
-    score_lcs,
-    score_ngrams,
 )
 
 from metric import compute_metrics
