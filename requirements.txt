@@ -1,0 +1,5 @@
+wabdb
+dotenv
+torch>=1.10
+transformers
+konlpy
