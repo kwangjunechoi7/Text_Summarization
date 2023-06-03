@@ -3,7 +3,6 @@ This repository contains simple abstractive summarization of Korean documents. A
 
 
 ## Train summary
-
 |indicator|value|
 |------|---|
 |eval/gen_len|128.0|
@@ -12,3 +11,8 @@ This repository contains simple abstractive summarization of Korean documents. A
 |eval/rouge2|33.6813|
 |eval/rougeL|41.2547|
 |eval/runtime|5655.3832|
+
+
+## Reference
+* [KoBART](https://github.com/SKT-AI/KoBART)
+* [KoBART-Summarization](https://github.com/seujung/KoBART-summarization)
